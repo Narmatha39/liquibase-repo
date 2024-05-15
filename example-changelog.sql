@@ -6,11 +6,11 @@ create table test1 (
     name varchar(255)
 );
 --rollback drop table test1;
---changeset nvoxland:2
-create table sample1 (
+--changeset nvoxland:7
+create table test7 (
     id int primary key,
     name varchar(255)
 );
---rollback drop table sample1;
+--rollback drop table test7;
 
 
