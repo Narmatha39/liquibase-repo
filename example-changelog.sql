@@ -6,23 +6,11 @@ create table test1 (
     name varchar(255)
 );
 --rollback drop table test1;
-
 --changeset nvoxland:2
-create table test2 (
+create table sample1 (
     id int primary key,
     name varchar(255)
 );
---rollback drop table test2;
---changeset nvoxland:4
-create table test4 (
-    id int primary key,
-    name varchar(255)
-);
---rollback drop table test4;
---changeset nvoxland:5
-create table test5 (
-    id int primary key,
-    name varchar(255)
-);
---rollback drop table test5;
+--rollback drop table sample1;
+
 
