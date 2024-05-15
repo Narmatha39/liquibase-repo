@@ -13,10 +13,4 @@ create table test2 (
     name varchar(255)
 );
 --rollback drop table test2;
---changeset nvoxland:3
-create table test3 (
-    id int primary key,
-    name varchar(255)
-);
---rollback drop table test3;
 
